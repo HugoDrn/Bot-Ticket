@@ -14,7 +14,7 @@ module.exports = {
     .setName("ticket-setup")
     .setDescription("Setup the ticket system.")
     .setDMPermission(false)
-    .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),
+    .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
   async execute(interaction) {
     const embed = new EmbedBuilder()
       .setTitle("Ticket System")
